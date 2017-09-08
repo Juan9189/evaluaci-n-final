@@ -1,7 +1,6 @@
 body {
   background-color: #02010a;
   font-family: Dancing Script;
-
 }
 
 header{
@@ -9,16 +8,14 @@ header{
   color: white;
   border-radius: 10px 10px 0 0;
   padding: 1vh 1vw;
-  height: 80px;
+  padding: 15px 0 0 20px;
   overflow: hidden;
-
 }
 
 header h1 {
   float: left;
-  padding: 15px 0 0 20px;
   text-shadow: 2px 2px #02010a;
-
+  vertical-align: middle;
 }
 
 header nav {
@@ -41,10 +38,152 @@ nav ul li a {
   display: block;
   padding: 0 10px;
   text-decoration: none;
+  font-size: 20px;
 }
 
 header a{
   color:white;
-text-decoration: none;
+  text-decoration: none;
+}
 
+section {
+display: inline-block;
+margin: 0%;
+}
+
+div [class="contenido"]{
+overflow: hidden;
+width: 100%;
+display: flex;
+flex-flow: column;
+}
+
+div [class="imagen_central"]{
+padding: 1%;
+width: 100%;
+background-color: #82c3a6;
+overflow: hidden;
+flex-direction: column;
+display: inline-block;
+}
+
+.imagen_central img{
+  width: 90%;
+  height: 75%;
+  background-color: #82c3a6;
+  padding:5%;
+  overflow: hidden;
+}
+
+div [class="imagen_secundaria"] {
+  background-color: #d5c75f;
+  width: 100%;
+  padding: 1%;
+  overflow: hidden;
+  width: 100%;
+  height: 1500px;
+  flex-direction: column;
+}
+
+.retratos {
+  background-color: #d5c75f;
+  order: 2;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  flex-grow: 2;
+}
+
+.paisaje {
+  background-color: #d5c75f;
+  order: 1;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  flex-grow: 2;
+}
+
+.imagen_secundaria{
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  }
+
+.paisaje img {
+  margin:10%;
+  padding: 0%;
+  height: 50%;
+  border: solid 1px;
+}
+
+.paisaje a {
+  text-align: center;
+  color: black;
+  font-size: 30px;
+}
+
+.retratos img {
+  margin: 5%;
+  margin-top: 11%;
+  padding: 0%;
+  border: solid 1px;
+  height: 50%;
+  width: 80%;
+}
+
+.retratos a {
+  text-align: center;
+  color: black;
+  margin-top:7%;
+  font-size: 30px;
+}
+
+footer {
+  background-color: #C6d5c5;
+  display: flex;
+  flex-direction: row;
+  border-radius: 0 0 10px 10px;
+}
+
+.informacion {
+width: 100%;
+display: flex;
+flex-direction: row;
+}
+
+.contacto {
+  margin: 1%;
+  width: 25%;
+  padding: 2%;
+}
+
+.termino {
+  width: 25%;
+  margin: 1%;
+  padding: 2%;
+}
+
+.Redes{
+  width: 25%;
+  margin: 1%;
+  padding: 2%;
+}
+
+.Redes ul {
+list-style: none;
+}
+
+.Redes ul a {
+  text-decoration: none;
+  color:black;
+}
+
+.Derechos {
+  width: 25%;
+  margin: 1%;
+  padding: 2%;
+}
+
+.termino p  {
+  font-size: 15px;
 }
