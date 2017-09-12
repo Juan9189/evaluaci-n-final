@@ -71,8 +71,38 @@ width: 100%;
   width:100%;
 }
 
+#imagen2 img{
+  -webkit-filter:grayscale(100%);
+  filter: grayscale(100%);
+}
 
+#imagen4 img {
+  -webkit-filter:grayscale(100%);
+  filter: grayscale(100%);
+}
 
+#imagen6 img {
+  -webkit-filter:grayscale(100%);
+  filter: grayscale(100%);
+}
+
+#imagen1 img{
+  -webkit-filter:blur(10px);
+  filter: blur(10px);
+}
+
+#imagen3 img {
+  -webkit-filter:sepia(90%);
+  filter: sepia(90%);
+}
+
+.fila1 img {
+  border: solid 2px #02010a;
+}
+
+.fila2 img {
+  border: solid 2px #02010a;
+}
 
 footer {
   background-color: #C6d5c5;
@@ -145,15 +175,14 @@ list-style: none;
     text-align: center;
   }
 
-  .imagen_secundaria {
+  .fila1 {
     display: flex;
     flex-direction: column;
   }
 
-  .retratos a {
-
-    margin-top: 2%;
-    margin-bottom: 5%;
+  .fila2 {
+    display: flex;
+    flex-direction: column;
   }
 
 .informacion {
